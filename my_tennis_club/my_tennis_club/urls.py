@@ -19,7 +19,7 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-
+# in this we add the path of urls file in the app members
     path('admin/', admin.site.urls),
     path('', include('members.urls')),
 
